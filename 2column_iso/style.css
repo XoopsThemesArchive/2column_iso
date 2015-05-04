@@ -1,0 +1,126 @@
+/* artNOMAD 2column Style Sheet */
+/* auther -  artNOMAD <info@art-nomad.net>*/
+/* web - http://art-nomad.net/ */
+/* this theme is licensed under a Creative Commons License 2.0 2005, artNOMAD */
+/* CCL - http://creativecommons.org/licenses/by/2.0/  */
+
+body {color: black; background: #FFFFFF; margin: 0; padding: 0; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+table {width: 100%; margin: 5; padding: 5; font-size: 12px; background: #FFFFFF;}
+table td {padding: 0; border-width: 0; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+table#header {width:760px;}
+table#barmenu {width:100%;}
+table#main {width:762px;}
+table#foot {width: 762px;}
+
+a {color: #333333; text-decoration: none; background-color: transparent;}
+a:hover {color: #008AFF; text-decoration: underline;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+
+ul { margin: 2px; padding-left:1.2em; color: #4D7398;}
+li { }
+
+input.formButton {}
+
+th {background-color: #97CBFF; color: #CCCCCC; padding : 3px; vertical-align : middle; font-family: "Hiragino Kaku Gothic Pro", "«l«r «o…S…V…b…N", Osaka, Verdana, Arial, Helvetica, sans-serif; background: url(images/menutitle.jpg);}
+
+td#headerlogo {background: url(images/logo.jpg); background-color: #FFFFFF; vertical-align: middle; padding: 0px; margin: 0px; border:1px solid #999999;}
+td#headerbar {vertical-align: middle; text-align:center; border-right: 1px solid #999999; padding: 0px;}
+
+.menubar {font-size: 11px; text-align:center; border-bottom: 1px solid #999999; border-left: 1px solid #999999; text-align:center; background: url(images/menutitle.jpg); background-repeat: no-repeat;}
+.menu a {padding:4px; display: block; color: #999999; font-weight: bold; text-align:center; background: url(images/menutitle.jpg); background-repeat: no-repeat;}
+.menu a:hover {color: #333333; text-decoration: none; background: url(images/menutitle3.jpg); background-repeat: no-repeat;}
+
+td#login {color: #333333; font-size:10px; padding:3px 3px 3px 0px; text-align:right;}
+
+
+.item {border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC;}
+.itemHead {padding: 3px; background-color: tranparent; color: #666666; border: 1px solid #999999;}
+.itemInfo {text-align: right; padding: 3px; background-color: #efefef}
+.itemTitle a {font-size: 120%; font-weight: bold; font-variant: small-caps; background-color: transparent;}
+.itemPoster {font-size: 90%;}
+.itemPostDate {font-size: 90%;}
+.itemStats {font-size: 90%;}
+.itemBody {padding-left: 15px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 130%;}
+.itemFoot {text-align: right; padding: 3px; background-color: #efefef}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+td#centercolumn {font-size: 12px; text-align:left; border-bottom: 1px solid #CCCCCC; padding-top:18px;}
+td#centercolumn th {background-color: #97CBFF; color: #333333; vertical-align: middle;}
+
+td#centerCcolumn {padding: 5px;}
+td#centercolumn th {background-color: #97CBFF; color: #333333; vertical-align: middle;}
+td#centerCcolumn div.blockTitle {padding: 3px; background:#ffffff; color: #000000; font-weight: bold; margin-top: 0px; margin-right: 0px;  margin-left: 0px; border-bottom: 1px solid #cccccc;}
+td#centerCcolumn div.blockContent {padding: 3px; margin-right: 0px;  margin-left: 0px; margin-bottom: 2px; line-height: 120%;}
+
+td#centerLcolumn {width: 50%; padding: 0px 10px 0px 8px;}
+td#centerLcolumn div.blockTitle {padding: 4px; background:#99ccff; color: #000000; font-weight: bold; margin-top: 0px; background: url(images/menutitle.jpg); border-top: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; font-size:90%; text-align:center;}
+td#centerLcolumn div.blockContent {border-top: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; padding: 3px; line-height: 120%;}
+
+td#centerRcolumn {width: 50%; padding: 0px 8px 10px 0px;}
+td#centerRcolumn div.blockTitle {padding: 4px; background:#99ccff; color: #000000; font-weight: bold; margin-top: 0px; background: url(images/menutitle.jpg); border-top: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; font-size:90%; text-align:center;}
+td#centerRcolumn div.blockContent {border-top: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; padding: 3px; line-height: 120%;}
+
+div#content {text-align: left; padding-top: 0px; padding-bottom: 8px; padding-right: 8px;}
+
+td#leftcolumn {width: 220px; font-size:11px; text-align:left; border-bottom: 1px solid #CCCCCC; padding-top:18px;}
+td#leftcolumn th {background-color: transparent; color: #222222; vertical-align: middle;}
+td#leftcolumn div.blockTitle {padding: 4px; background-color: #999999; color: #333333; font-weight: bold; margin: 0px 0px 0px 10px; background: url(images/menutitle.jpg); border-top: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC;}
+td#leftcolumn div.blockContent {padding: 3px; background-color: transparent; line-height: 110%; margin-left: 10px; margin-right: 0px; margin-bottom: 12px; border-top: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC;}
+
+td#mainmenu {}
+td#mainmenu a {color: #333333; background-color: #FFFFFF; padding: 3px;}
+td#mainmenu a:hover {color: #008AFF; background-color: #D4ECFF; text-decoration: none;}
+td#mainmenu a.menuTop {padding-left: 3px;}
+td#mainmenu a.menuMain {padding-left: 3px;}
+td#mainmenu a.menuSub {padding-left: 12px;background-color: #F6F6F6;}
+
+td#usermenu {}
+td#usermenu a {color: #97CBFF; background-color: #FFFFFF; padding: 3px;}
+td#usermenu a:hover {color: #008AFF; background-color: #D4ECFF; text-decoration: underline;}
+td#usermenu a.menuTop {}
+td#usermenu a.highlight {background-color: #fcc;}
+
+.footer {color: #333333; font-size: 10px; text-align: center;}
+
+.outer {background-color: #CCCCCC;}
+.head {background-color: #D4ECFF; padding: 5px; font-weight: bold;}
+.even {background-color: #FFFFFF; padding: 5px;}
+.odd {background-color: #FFFFFF; padding: 5px;}
+.foot {background-color: #D4ECFF; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #FFFFFF; padding: 5px;}
+tr.odd td {background-color: #FFFFFF; padding: 5px;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace, osaka; padding: 0px 6px 6px 6px;}
+
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace, osaka; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+.boite {font-size: 12px; padding:0px; border:2px solid #666666;}
+.boutonvert {background-color: #238e23; font-size: 10px; font-weight:bold; color: #ffffff; border:1px solid #cccccc; padding: 0px;}
+.boutonorange {background-color: #fe9f0f; font-size: 10px; font-weight:normal; color: #000000; border:1px solid #000000; padding: 0px;}
